@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LEATHER BUCKET</title>
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Leather Bucket">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="./assets/css/style.css" />
+        <link type="text/css" rel="stylesheet" href="./assets/css/common.css" />
+        <link type="text/css" rel="stylesheet" href="./assets/css/responsive.css" />
+        
+        <link type="text/css" rel="stylesheet" href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="./assets/css/all.min.css" />
+        <link type="text/css" rel="stylesheet" href="./assets/css/jquery.fancybox.min.css" />
+        <link type="text/css" rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
+    </head>
+    <body id="yellowbackground" >
+        <!-- NAVBAR START -->
+        <div id="navbarmain" >
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/image/logo.png" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">LOCKER ROOM</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#">GALLERY</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#">OPENSEA</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- NAVBAR END -->
+        <div class="lockerview" >
+            <div class="container mt-4">
+                <div class="card">
+                   <div class="card-body">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="carouselbucket" >
+                                    <img src="./assets/image/Locker.png" />
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carouselbucket" >
+                                    <img src="./assets/image/Locker.png" />
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carouselbucket" >
+                                    <img src="./assets/image/Locker.png" />
+                                </div>
+                            </div>
+                            <div class="item"><h4>4</h4></div>
+                            <div class="item"><h4>5</h4></div>
+                            <div class="item"><h4>6</h4></div>
+                            <div class="item"><h4>7</h4></div>
+                            <div class="item"><h4>8</h4></div>
+                            <div class="item"><h4>9</h4></div>
+                            <div class="item"><h4>10</h4></div>
+                            <div class="item"><h4>11</h4></div>
+                            <div class="item"><h4>12</h4></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!-- BOOTSTRAP JS -->
+<script src="./assets/js/bootstrap.bundle.min.js" ></script>
+<script src="./assets/js/jquery.min.js" ></script>
+<script src="./assets/js/jquery.fancybox.min.js"></script>    
+<script src="./assets/js/owl.carousel.min.js"></script>
+<script src="./assets/js/custom.js"></script>
+<script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
+</script>

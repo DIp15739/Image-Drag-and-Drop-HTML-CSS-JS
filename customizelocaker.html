@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LEATHER BUCKET</title>
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Leather Bucket" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/common.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/responsive.css" />
+
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="./assets/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link type="text/css" rel="stylesheet" href="./assets/css/all.min.css" />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="./assets/css/jquery.fancybox.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="./assets/css/owl.carousel.min.css"
+    />
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div id="navbarmain">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/image/logo.png" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >LOCKER ROOM</a
+                >
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">GALLERY</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">OPENSEA</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="customizelocker">
+      <div class="container mt-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="lockertitle">CUSTOMIZE YOUR LOCKER</h5>
+            <div class="row">
+              <div class="col-xl-7">
+                <!-- USER INFO -->
+                <div class="customizeuserinfo">
+                  <div class="row">
+                    <div class="col-xl-3">
+                      <div class="customizeuserimage">
+                        <img src="./assets/image/user.png" alt="userImage" />
+                        <p>ID 3457</p>
+                      </div>
+                    </div>
+                    <div class="col-xl-9">
+                      <form class="squareform">
+                        <div class="mb-3">
+                          <label for="username" class="form-label"
+                            >User Name</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="username"
+                            placeholder="User Name"
+                          />
+                        </div>
+                        <div class="mb-3">
+                          <label for="location" class="form-label"
+                            >Location</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="location"
+                            placeholder="Location"
+                          />
+                        </div>
+                        <div class="row">
+                          <div class="col-xl-6">
+                            <div class="mb-3">
+                              <label for="birthmonth" class="form-label"
+                                >Birth Month</label
+                              >
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="birthmonth"
+                                placeholder="Birth Month"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-xl-6">
+                            <div class="mb-3">
+                              <label for="birthdate" class="form-label"
+                                >Birth Date</label
+                              >
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="birthdate"
+                                placeholder="Birth Date"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <!-- USER INFO -->
+
+                <!-- CUSTOMIZE PRODUCT LIST -->
+                <div class="producttab">
+                  <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link active"
+                        id="home-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#home"
+                        type="button"
+                        role="tab"
+                        aria-controls="home"
+                        aria-selected="true"
+                      >
+                        TRINKETS
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link"
+                        id="profile-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#profile"
+                        type="button"
+                        role="tab"
+                        aria-controls="profile"
+                        aria-selected="false"
+                      >
+                        NFT GALLERY
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link"
+                        id="contact-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#contact"
+                        type="button"
+                        role="tab"
+                        aria-controls="contact"
+                        aria-selected="false"
+                      >
+                        SOCIAL
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link"
+                        id="contact-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#contact"
+                        type="button"
+                        role="tab"
+                        aria-controls="contact"
+                        aria-selected="false"
+                      >
+                        GM DYNASTY
+                      </button>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div
+                      class="tab-pane fade show active"
+                      id="home"
+                      role="tabpanel"
+                      aria-labelledby="home-tab"
+                    >
+                      <div class="row">
+                        <div class="col-xl-3">
+                          <div class="trinketslist">
+                            <div class="droptarget">
+                              <img
+                                draggable="true"
+                                id="dragtarget1"
+                                src="./assets/image/Locker1.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-3">
+                          <div class="trinketslist">
+                            <div class="droptarget">
+                              <img
+                                draggable="true"
+                                id="dragtarget2"
+                                src="./assets/image/Locker2.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-3">
+                          <div class="trinketslist">
+                            <div class="droptarget">
+                              <img
+                                draggable="true"
+                                id="dragtarget3"
+                                src="./assets/image/Locker3.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-3">
+                          <div class="trinketslist">
+                            <div class="droptarget">
+                              <img
+                                draggable="true"
+                                id="dragtarget4"
+                                src="./assets/image/Locker4.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-3">
+                          <div class="trinketslist">
+                            <div class="droptarget">
+                              <img
+                                draggable="true"
+                                id="dragtarget5"
+                                src="./assets/image/Locker5.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-3">
+                          <div class="trinketslist">
+                            <div class="droptarget">
+                              <img
+                                draggable="true"
+                                id="dragtarget6"
+                                src="./assets/image/Locker6.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-3">
+                          <div class="trinketslist">
+                            <div class="droptarget">
+                              <img
+                                draggable="true"
+                                id="dragtarget7"
+                                src="./assets/image/Locker7.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-3">
+                          <div class="trinketslist">
+                            <div class="droptarget">
+                              <img
+                                draggable="true"
+                                id="dragtarget8"
+                                src="./assets/image/Locker8.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-3">
+                          <div class="trinketslist">
+                            <div class="droptarget">
+                              <img
+                                draggable="true"
+                                id="dragtarget9"
+                                src="./assets/image/Locker9.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-3">
+                          <div class="trinketslist">
+                            <div class="droptarget">
+                              <img
+                                draggable="true"
+                                id="dragtarget10"
+                                src="./assets/image/Locker10.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-3">
+                          <div class="trinketslist">
+                            <div class="droptarget">
+                              <img
+                                draggable="true"
+                                id="dragtarget11"
+                                src="./assets/image/Locker11.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-3">
+                          <div class="trinketslist">
+                            <div class="droptarget">
+                              <img
+                                draggable="true"
+                                id="dragtarget12"
+                                src="./assets/image/Locker12.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-3">
+                          <div class="trinketslist">
+                            <div class="droptarget">
+                              <img
+                                draggable="true"
+                                id="dragtarget13"
+                                src="./assets/image/Locker12.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="profile"
+                      role="tabpanel"
+                      aria-labelledby="profile-tab"
+                    >
+                      ...
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="contact"
+                      role="tabpanel"
+                      aria-labelledby="contact-tab"
+                    >
+                      ...
+                    </div>
+                  </div>
+                </div>
+                <!-- CUSTOMIZE PRODUCT LIST -->
+              </div>
+              <div class="col-xl-5">
+                <div class="locker">
+                  <img src="./assets/image/Locker.png" />
+                </div>
+              </div>
+              <div class="droptargetList">
+                <div class="droptargetListItem-1">
+                  <div class="droptarget">
+                    <div class="droptargetMark"></div>
+                  </div>
+                </div>
+                <div class="droptargetListItem-2">
+                  <div class="droptarget">
+                    <div class="droptargetMark"></div>
+                  </div>
+                </div>
+                <div class="droptargetListItem-3">
+                  <div class="droptarget">
+                    <div class="droptargetMark"></div>
+                  </div>
+                </div>
+                <div class="droptargetListItem-4">
+                  <div class="droptarget">
+                    <div class="droptargetMark"></div>
+                  </div>
+                </div>
+                <div class="droptargetListItem-5">
+                  <div class="droptarget">
+                    <div class="droptargetMark"></div>
+                  </div>
+                </div>
+                <div class="droptargetListItem-6">
+                  <div class="droptarget">
+                    <div class="droptargetMark"></div>
+                  </div>
+                </div>
+                <div class="droptargetListItem-7">
+                  <div class="droptarget">
+                    <div class="droptargetMark"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- BOOTSTRAP JS -->
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/jquery.fancybox.min.js"></script>
+<script src="./assets/js/owl.carousel.min.js"></script>
+<script src="./assets/js/custom.js"></script>
+<script>
+  document.addEventListener("dragstart", function (event) {
+    event.dataTransfer.setData("Text", event.target.id);
+    event.target.style.opacity = "0.4";
+    document.querySelectorAll(".droptargetMark").forEach((div) => {
+      div.style.border = "7px dotted red";
+    });
+  });
+
+  document.addEventListener("dragend", function (event) {
+    event.target.style.opacity = "1";
+    document.querySelectorAll(".droptargetMark").forEach((div) => {
+      div.style.border = "none";
+    });
+  });
+
+  document.addEventListener("dragenter", function (event) {
+    if (event.target.className == "droptarget") {
+      event.target.style.border = "7px dotted red";
+    }
+  });
+
+  document.addEventListener("dragover", function (event) {
+    event.preventDefault();
+  });
+
+  document.addEventListener("dragleave", function (event) {
+    if (event.target.className == "droptarget") {
+      event.target.style.border = "";
+    }
+  });
+
+  document.addEventListener("drop", function (event) {
+    event.preventDefault();
+    if (event.target.className == "droptarget") {
+      event.target.style.border = "";
+      var data = event.dataTransfer.getData("Text");
+      event.target.appendChild(document.getElementById(data));
+    }
+  });
+</script>
